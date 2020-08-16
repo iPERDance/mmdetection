@@ -8,7 +8,7 @@ import mmcv
 import torch
 from mmcv import Config, DictAction
 from mmcv.runner import init_dist
-from utils.utils import get_git_hash
+from mmdet.utils.utils import get_git_hash
 
 from mmdet import __version__
 from mmdet.apis import set_random_seed, train_detector

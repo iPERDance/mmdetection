@@ -8,7 +8,7 @@ import mmcv
 import torch
 import torchvision
 from mmcv.utils import get_build_config
-from utils.utils import get_git_hash
+from mmdet.utils.utils import get_git_hash
 
 import mmdet
 
